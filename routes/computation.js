@@ -18,7 +18,8 @@ router.get('/', function(req, res, next) {
   
   
   
-  res.send(`The Random numbers are ${randn1}  <br> <br> log2 applied to ${randn1} is ${num1}  <br> <br> cosh applied to ${randn1} is ${num2}  <br> <br>  floor applied to ${randn1} is ${num3}`);
+  res.send(`The Random numbers are ${randn1}  <br> <br> log2 applied to ${randn1} is ${num1}  
+  <br> <br> cosh applied to ${randn1} is ${num2}  <br> <br>  floor applied to ${randn1} is ${num3}`);
 
 
 });
